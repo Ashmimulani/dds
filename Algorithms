@@ -1,0 +1,32 @@
+Algorithm to perform Infix to postfix operation
+
+a.If symbol is an oprend 5+3*(5-2)+7  = 53+52=*7+
+-print that symbol onto the screen.
+b.If symbol is left parentheses
+-push it on the stack.
+c.If symbol is right parenthesis
+-pop all opereters from the stack upto first left parenthesis and print them on the screen.
+Discard the left &right parenthesis.
+d.If an symbol is an operetor
+if the precedence of the operatores in the stack are greater or eqal to the current opeator then pop the operatores out of the stack 7 print the onto screen 7 push the current operetor onto the stack 
+else:
+Push thew current operator onto the stack,
+3*(5-2)+1
+precedence order
+=============
+parenthesis -{},(),[]
+Exponential  Notation- ^
+Multiplication &divison- */
+Addition &subtaction-+,-
+============
+*,/ -Left to right
++ - -Right to left
+^-Right to left
+
+Infix to Prefix
+========================
+Infix -<operand><operator><operand>a+b
+Prefix -<operator><operand><operand>+ab
+Postfix-<operand><operand><operator>ab+
+====================================================================================
+
